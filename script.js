@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
-
+ 
 app.post('/registro', function(req, res){
 	var nombre = req.body.nombre;
 	var apellido = req.body.apellido;
