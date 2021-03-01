@@ -15,6 +15,8 @@ app.post('/registro', function(req, res){
 	var html = "Usted se ha registrado con éxito";
 	res.send(html);
 })
+
+//comentario de prueba
 app.listen(3000, function(){
 	console.log('Aplicacion de ejemplo en el puerto 3000!');
 })
